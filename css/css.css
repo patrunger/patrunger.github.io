@@ -1,0 +1,16 @@
+#logo {
+  width: 24px;
+  display: inline-block;
+  position: relative;
+  bottom: 2px;
+}
+
+#about p {
+  margin-bottom: 15px;
+}
+
+#business-card {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
