@@ -312,3 +312,87 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+.fa-fw {
+  font-size: 30px;
+}
+.network-name {
+  font-size: 18px;
+  vertical-align: text-bottom;
+}
+.top-nav-collapse {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.nav-container {
+  padding: 0 10px 0 30px;
+  width: 100%;
+}
+@media (max-width: 400px) {
+  .nav-container {
+    padding: 0 10px;
+  }
+}
+#logo-words {
+  display: inline-block;
+}
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  min-height: 50px;
+}
+.nav-container:before,
+.nav-container:after,
+.navbar-header:before,
+.navbar-header:after {
+  content: initial;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 7px 15px;
+  align-self: center;
+  height: initial;
+}
+#logo {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  bottom: 2px;
+}
+#about p {
+  margin-bottom: 15px;
+}
+#business-card {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.banner-social-buttons {
+  list-style: none;
+  -webkit-padding-start: 0;
+  padding-left: 0;
+  padding-start: 0;
+}
+.banner-social-buttons li {
+  margin-bottom: 15px;
+}
+.fa-facebook {
+  position: relative;
+  top: 2px;
+}
+@media (max-width: 400px) {
+  #email {
+    font-size: 16px;
+  }
+}
+#email {
+  transition: font-size 1s;
+}
+.no-padding {
+  padding: 0;
+}
+#contact {
+  padding-bottom: 40px;
+}
